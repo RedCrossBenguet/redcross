@@ -435,16 +435,6 @@ tr:hover td {
 	collapse; border-spacing: 0; 
 }
 
-#headerSubtextGrad{
-	position:relative;
-	top:15px;
-	left:80px;
-	font-size:17px;
-	text-align:left;
-	margin-left: 250px;
-	color:#333333;
-	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}
 
 /*Donate*/
 #donate label{
