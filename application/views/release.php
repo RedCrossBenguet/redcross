@@ -1,10 +1,10 @@
-<div id="release">
+<div id="reldis">
 	<h2>Blood Details</h2>
 		<label>Requester's Name: </label>
 		<input type="text" name="req_name" value="<?php echo set_value('req_name'); ?>"/><br />
 		
 		<label>Age: </label>
-		<input type="text" name="age" value="<?php echo set_value('age'); ?>"/>&nbspMust be above 18<br />
+		<input type="text" name="age" value="<?php echo set_value('age'); ?>"/><br />
 		
 		<label>Requesting Physician: </label>
 		<input type="text" name="req_phys" value="<?php echo set_value('req_phys'); ?>"/><br />
@@ -19,7 +19,7 @@
 		<input type="date" name="rel_date" value="<?php echo set_value('rel_date'); ?>"/><br />
 </div>
 
-<div id="releaseButton">
+<div id="reldisButton">
 	<input type="submit" value="Back">
-	<input type="submit" value="Save">
+	<input type="submit" value="Release">
 <div/>

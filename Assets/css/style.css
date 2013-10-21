@@ -9,19 +9,6 @@ html{
 
 
 /*Login*/
-#accLogin{
-	margin: 30px 0 0 329px;
-	position: absolute;
-	font-color: red;
-}
-
-#error{
-	position: relative;
-	color: red;
-	display: relative;
-	font-size: 12px;
-}
-
 #login {
 	background-image:url(../images/logo.png);
 	background-repeat:no-repeat;
@@ -79,7 +66,7 @@ html{
 
 /* Header */
 #header {
-	height:70px;
+	height:140px;
 	width:960px;
 	margin:0 auto;
 }
@@ -89,40 +76,35 @@ html{
 
 #picture{
 	position:relative;
-	background-size: 100%;
-	width:80px;
-	height:80px;
-	float: left;
+	width:100%;
+	height:100%;
 	background-image:url(../images/logo.png);
 	background-repeat:no-repeat;
 	margin-left:20px;
-	margin-top:0 auto;
+	margin-top:20px;
 }
 
 #headerTitle {
 	position:relative;
-	top: 5px;
-	left:20px;
-	font-size:27px;
+	top:20px;
+	left:150px;
+	font-size:38px;
 	color:#333333;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 	
 #headerSubtext { 
 	position:relative;
-	top:5px;
-	left:20px;
-	font-size:16px;
+	top:20px;
+	left:160px;
+	font-size:20px;
+	text-align:left;
+	margin-left: 250px;
 	color:#333333;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
 /* Navigation */
-
-nav {
-	width: 1000px;
-}
-
 
 nav ul li:hover > ul {
 	display: block;
@@ -140,7 +122,7 @@ nav ul{
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	z-index: 9999;
+	z-index: 5;
 	padding: 0 0;
 	border-radius: 10px;  
 	list-style: none;
@@ -158,7 +140,6 @@ nav ul li {
 	float: left;
 	border-radius: 10px;  
 	width: 190px;
-	border: 1px solid #7e0000;
 }
 	
 nav ul li:hover {
@@ -174,16 +155,13 @@ nav ul li:hover a {
 	
 nav ul li a {
 	display: block; 
-	padding: 12px 10px;
-	text-align: center;
+	padding: 17px 10px;
 	color: #fff;
 	font-family: 'Verdana', arial; 
 	text-decoration: none;
 	text-transform: uppercase;	
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
-	position: relative;
-	white-space:nowrap;
 
 }
 
@@ -204,7 +182,8 @@ nav ul ul {
 
 nav ul ul li {
 	float: none; 
-	border: 1px solid #6b727c;
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
 	position: relative;
 }
 
@@ -321,26 +300,6 @@ fieldset {
 	margin-left: 15px;
 }
 
-#donordetails{
-	width: 840px;
-	margin-top: 18px;
-	position: relative;
-}
-
-.donordetailslabel{
-	padding: 10px 10px 10px 0;
-	font-size: 13px;
-	width: 400px;
-	border-bottom:  1px solid #f2f2f2;
-    font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}
-
-#fieldhead{
-	width: 120px;
-	font-size: 16px;
-}
-
-
 input.textbox {
 	width:150px;
 }
@@ -365,20 +324,20 @@ label {
 }
 
 #btnDonate{
-	margin-top: 18px;
-	margin-right: 145px;
+	float: left;
+	margin: 40px 150px;
 }
 
 /* Siderbars */
 
 #sidebar {
-	margin-top: 18px;
+	margin-top: 30px;
 	padding-left: 2px;
 	float: left;
 	width: 3px;
 }
 #sidebar2 {
-	margin-top: -6px;
+	margin-top: 10px;
 	margin-right: 145px;
 	float: right;
 	width: 10px;
@@ -388,7 +347,6 @@ label {
 	float: left;
 	padding-top: 24px;
 }
-
 
  input[type=submit] {
     padding: 1px 1em;
@@ -406,7 +364,7 @@ label {
  /* Content */
 #myTable {
 	float: left;
-	margin: 18px 10px 30px 90px;
+	margin: 36px 10px 30px 90px;
 	width: 700px;
 	color: #333;
     font-family: 'trebuchet MS', 'Lucida sans', Arial;
@@ -477,6 +435,16 @@ tr:hover td {
 	collapse; border-spacing: 0; 
 }
 
+#headerSubtextGrad{
+	position:relative;
+	top:15px;
+	left:80px;
+	font-size:17px;
+	text-align:left;
+	margin-left: 250px;
+	color:#333333;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
 
 /*Donate*/
 #donate label{
@@ -503,8 +471,9 @@ tr:hover td {
 .logout{
 	color:#333333;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-	margin: 10px 0 0 899px;
-	z-index: 1000
+	float:right;
+	margin-right:25px;
+	margin-top: -5px;
 
 }
 
@@ -513,7 +482,7 @@ tr:hover td {
 
 #footer {
 	position: relative;
-	margin-top: -10px; /* negative value of footer height */
+	margin-top: -20px; /* negative value of footer height */
 	height: 200px;
 	clear:both;
 } 
@@ -589,21 +558,21 @@ tr:hover td {
 	border: 2px solid pink;
 	background-color: maroon;
 }
-#releaseButton{
+#reldisButton{
 	margin-top:30px;
 }
-/*Release*/
-#release label{
+/*Release and Dispose*/
+#reldis label{
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	margin: 3px 0px 5px 10px;
 }
 
-#release input{
+#reldis input{
 	float: center;
 	margin-left: 10px;
 }
 
-#release select{
+#reldis select{
 	width: 153px;
 	margin-left: 10px;	
 }
