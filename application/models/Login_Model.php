@@ -21,10 +21,10 @@ class Login_model extends CI_Model {
       }
 	  
 	  foreach( $q->result() as $row){
-	  	$userdetail=$row;
+	  	  $userdetail=$row;
 	  }
 	  
-	  return $userdetail;
+	   return $userdetail;
 	  
       return false;
    }

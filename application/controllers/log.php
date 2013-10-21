@@ -11,7 +11,8 @@ class Log extends CI_Controller {
 
 	public function index()
    {
-        if(isset($_SESSION['username']))redirect(base_url());
+
+      if(isset($_SESSION['username']))redirect(base_url());
       $this->load->library('form_validation');
       $this->form_validation->set_rules('username', 'Username', 'required');
       $this->form_validation->set_rules('password', 'Password', 'required|min_length[4]');
@@ -25,13 +26,9 @@ class Log extends CI_Controller {
                   );
 
          if ( $res !== false ) {
-            $tempuser = $this->input->post('username');
-			$tempservice = $res->service;
-		//	$this->session->set_userdata('username', $tempuser);
-			$_SESSION['username'] = $tempuser;
-			$_SESSION['service'] = $tempservice;
+   			$_SESSION['username'] = $res->username;
+   			$_SESSION['service'] = $res->service;
             redirect(base_url());
-           // echo $_SESSION['username']."HELLO";
          }else if($res !== true && strlen($this->input->post('username')) > 0 ){
 		     $data['err'] = 'Invalid!';			 
 		 }
