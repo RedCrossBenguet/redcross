@@ -33,7 +33,7 @@ class Log extends CI_Controller {
             redirect(base_url());
            // echo $_SESSION['username']."HELLO";
          }else if($res !== true && strlen($this->input->post('username')) > 0 ){
-		     $data['err'] = 'Invalid';			 
+		     $data['err'] = 'Invalid!';			 
 		 }
 
       }
