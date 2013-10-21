@@ -26,5 +26,4 @@
 		<input type="date" name="expirationDate" value="<?php echo set_value('expirationDate'); ?>"/><div class="eState"><?php echo form_error('expirationDate'); ?></div><br/>
 		
 		<input type="submit" value="Save">
-	</form>
 </div>

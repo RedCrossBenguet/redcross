@@ -589,3 +589,21 @@ tr:hover td {
 	border: 2px solid pink;
 	background-color: maroon;
 }
+#releaseButton{
+	margin-top:30px;
+}
+/*Release*/
+#release label{
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	margin: 3px 0px 5px 10px;
+}
+
+#release input{
+	float: center;
+	margin-left: 10px;
+}
+
+#release select{
+	width: 153px;
+	margin-left: 10px;	
+}
