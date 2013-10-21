@@ -1,10 +1,13 @@
 		
 		<table id = "myTableGrad">
-				<div id="headerSubtextGrad"><h3>LIST OF TRAINEE</div>
                     <tr>
-						<th>Name</th>
-						<th>Age</th>
-                    </tr>  
+                    	<th>Trainee ID</th>
+                    	<th>Name</th>
+                    	<th>Age</th>
+						<th>Educ'l Qual.</th>
+						<th>Contact No.</th>
+						
+						                    </tr>  
 		</table>
 				 
 				<div id="sidebar2" class="sidebar">   

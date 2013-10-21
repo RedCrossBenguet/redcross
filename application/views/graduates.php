@@ -1,5 +1,4 @@
 <table id = "myTableGrad">
-		<div id="headerSubtextGrad"><h3>LIST OF GRADUATES</div>
             <tr>
 				<th>Name</th>
 				<th>Age</th>
