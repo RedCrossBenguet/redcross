@@ -32,12 +32,11 @@
     </head>
     <body>
         <div id="header">
-        	<div id="picture">
-            	<div id="headerTitle">Red-E: Electronic Information System</div>
-            	<div id="headerSubtext">Benguet Chapter</div>
-    		</div>
-				<div class = "logout">
-					<a href="<?php echo base_url() ?>index.php/log/logout">Log Out</a>
-       			 </div>
-		</div>
-	<div id = "container">
+            <div id="picture"></div>
+                <div id="headerTitle">Red Cross Information Management System</div>
+                <div id="headerSubtext">Benguet Chapter</div>
+                <div class = "logout">
+                    <a href="<?php echo base_url() ?>index.php/log/logout">Log Out</a>
+                 </div>
+        </div>
+    <div id = "container">
